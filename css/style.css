@@ -7,8 +7,12 @@
 
 /*Generics*/
 
+body{
+    padding: 120px 0;
+    font-family: sans-serif;
+}
 .container{
-    max-width: 1080px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
@@ -40,14 +44,103 @@ header{
 }
 
 .navbar li{
-    padding: 0 10px;
+    padding-right: 10px;
 }
 a{
     text-decoration: none;
     color: white;
 }
 
+.navbar-logo{
+    display: flex;
+}
+
 #logo{
     width: 150px;
     height: auto;
 }
+
+/*main*/
+
+.row{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-basis: calc(100% / 3 - 15px);
+}
+
+.card img{
+    display: block;
+    max-width: 100%;
+}
+
+.card{
+    position: relative;
+    cursor: pointer;
+}
+
+.img-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.img-top:hover{
+    opacity: 1;
+}
+
+.discount{
+    color: white;
+    padding: 5px 3px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+}
+
+.sustainability{
+    color: white;
+    padding: 5px 3px;
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    bottom: 20px;
+}
+
+.last-sustainability{
+    color: white;
+    padding: 5px 3px;
+    background-color: green;
+    position: absolute;
+    left: 0px;
+    bottom: 20px;
+}
+
+.favourite{
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+
+.favourite:hover{
+    color: red;
+}
+
+.text-red{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.line{
+    text-decoration: line-through 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
