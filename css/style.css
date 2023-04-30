@@ -8,7 +8,7 @@
 /*Generics*/
 
 body{
-    padding: 120px 0;
+    padding-top: 120px;
     font-family: sans-serif;
 }
 .container{
@@ -66,6 +66,7 @@ a{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
 .column{
@@ -144,3 +145,33 @@ a{
     font-weight: bold;
 }
 
+/*footer*/
+
+footer{
+    background-color: #1a1a1a; 
+    color: white;
+}
+
+.info{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info li{
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+.text-small{
+    font-size: 10px;
+    padding: 5px;
+}
