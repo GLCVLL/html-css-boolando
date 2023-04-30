@@ -8,10 +8,46 @@
 /*Generics*/
 
 .container{
-    max-width: 1080;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
 /*header*/
 
+header{
+    background-color: #ff6900; 
+    color: white;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
 /*navbar*/
+
+.navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar li{
+    padding: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#logo{
+    width: 150px;
+    height: auto;
+}
