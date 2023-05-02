@@ -94,32 +94,23 @@ a{
     opacity: 1;
 }
 
-.discount{
-    color: white;
-    padding: 5px 3px;
-    background-color: red;
+.badge{
     position: absolute;
     left: 0;
     bottom: 20px;
+    color: white;
+}
+
+.discount{
+    background-color: red;
+    padding: 5px 3px;
 }
 
 .sustainability{
-    color: white;
-    padding: 5px 3px;
     background-color: green;
-    position: absolute;
-    left: 50px;
-    bottom: 20px;
+    padding: 5px 3px;
 }
 
-.last-sustainability{
-    color: white;
-    padding: 5px 3px;
-    background-color: green;
-    position: absolute;
-    left: 0px;
-    bottom: 20px;
-}
 
 .favourite{
     padding: 10px;
